@@ -1,0 +1,25 @@
+1. DOWNLOAD PYTHON
+https://www.python.org/downloads/
+
+2. FOR DATABASE DOWNLOAD 
+       i. sqlite-tools-win32-x86-3340100
+        https://www.sqlite.org/download.html
+    
+      ii. sqliteStudio
+       https://sqlitestudio.pl/
+
+3. PyQT GUI Toolkit
+       i. https://pypi.org/project/pyqt5-tools/
+			https://files.pythonhosted.org/packages/0e/a1/b2bbbb9e0c0f374fb77c85b014fc39fdb6e9e258c20906cc7ecb5f565e38/pyqt5_tools-5.9.0.1.2-cp36-none-win_amd64.whl
+
+        ii. Command for Installing PyQt5
+            pip3 install PyQt5
+
+4. how to import database in python file
+         import sqlite3
+         myschool=sqlite3.connect('schooltest.db')
+
+4. Now how to convert designer file .ui  into python file .py
+
+      path :     C:\Users\Lucky\AppData\Local\Programs\Python\Python38
+      command :  pyuic5 -x login.ui -o login.py 
